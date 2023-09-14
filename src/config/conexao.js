@@ -13,6 +13,7 @@ const conexaoBanco = new Pool({
   database: nomeDB,
   password: senhaDB,
   port: portDB,
+  ssl:{rejectUnauthorized:false},
 })
 
 module.exports = conexaoBanco
