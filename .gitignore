@@ -1,0 +1,4 @@
+node_modules
+
+./dadosSensiveis.js
+.prettierrc
